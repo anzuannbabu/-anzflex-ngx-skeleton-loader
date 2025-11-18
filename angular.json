@@ -93,6 +93,36 @@
           }
         }
       }
+    },
+    "@anzflex/ngx-skeleton-loader": {
+      "projectType": "library",
+      "root": "projects/anzflex/ngx-skeleton-loader",
+      "sourceRoot": "projects/anzflex/ngx-skeleton-loader/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/anzflex/ngx-skeleton-loader/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/anzflex/ngx-skeleton-loader/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:karma",
+          "options": {
+            "tsConfig": "projects/anzflex/ngx-skeleton-loader/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
     }
   }
 }

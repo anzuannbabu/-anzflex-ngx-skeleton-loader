@@ -1,0 +1,29 @@
+{
+  "name": "@anzflex/ngx-skeleton-loader",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": ">=19.0.0 <21.0.0",
+    "@angular/core": ">=19.0.0 <21.0.0"
+  },
+  "author": "anzuannbabu anzflex-ui",
+  "description": "skeleton loader for angular projects",
+  "keywords": [
+    "skeleton",
+    "loader",
+    "angular",
+    "angular skeleton",
+    "angular skeleton loader",
+    "angular loader",
+    "anzflex",
+    "@anzflex"
+  ],
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/anzuannbabu/ng-anzflex-excel-viewer"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "license": "MIT"
+}

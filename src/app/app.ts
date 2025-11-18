@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+import { NgxSkeletonLoader, NgxTableLoader, NgxProfileLoader, NgxCardLoader } from '@anzflex/ngx-skeleton-loader';
+
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NgxSkeletonLoader, NgxTableLoader, NgxProfileLoader, NgxCardLoader],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "@anzflex/ngx-skeleton-loader": [
+        "./dist/anzflex/ngx-skeleton-loader"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -29,6 +34,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/anzflex/ngx-skeleton-loader/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/anzflex/ngx-skeleton-loader/tsconfig.spec.json"
     }
   ]
 }
