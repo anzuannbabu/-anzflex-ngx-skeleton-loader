@@ -71,24 +71,24 @@ export class App {
   </div>
  </div>
 ```
-![Examople](./public/pics/shapes.png)
+![preview](https://github.com/anzuannbabu/-anzflex-ngx-skeleton-loader/blob/main/public/pics/shapes.png?raw=true)
 ## Table Skeleton Loader Preview
 
 ```html 
     <ngx-table-skeleton-loader />
 ```
 
-![Examople](./public/pics/table.png)
+![Examople](https://github.com/anzuannbabu/-anzflex-ngx-skeleton-loader/blob/main/public/pics/table.png?raw=true)
 ## Card Skeleton Loader Preview
 
 ```html 
     <ngx-card-skeleton-loader width="40%" imageHeight="300px" />
 ```
-![Examople](./public/pics/card.png)
+![Examople](https://github.com/anzuannbabu/-anzflex-ngx-skeleton-loader/blob/main/public/pics/card.png?raw=true)
 ## Profile Skeleton Loader Preview
 
 ```html 
    <ngx-profile-skeleton-loader width="500px" radius="12px" />
 ```
 
-![Examople](./public/pics/profile.png)
+![Examople](https://github.com/anzuannbabu/-anzflex-ngx-skeleton-loader/blob/main/public/pics/profile.png?raw=true)
